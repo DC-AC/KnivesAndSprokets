@@ -1,0 +1,23 @@
+.sidedish-table{
+    width:100%;
+    border:1px solid #ccc;
+    margin:15px 0px;
+    padding:10px;
+}
+
+.sidedish-table input{
+    width:100%;
+}
+
+.sidedish-table td{
+    width:50%;
+}
+
+.sidedish_row{
+    display:grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-column-gap: 5px;
+    padding:10px 0;
+
+}
+

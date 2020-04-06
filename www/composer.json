@@ -1,0 +1,23 @@
+{
+    "name": "acme/brilliant-wordpress-site",
+    "description": "My brilliant WordPress site",
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "microsoft/application-insights": "*",
+        "wpackagist-plugin/akismet":"dev-trunk",
+        "wpackagist-plugin/woocommerce":"4.0.*",
+        "wpackagist-plugin/wordpress-seo":">=7.0.2",
+        "wpackagist-theme/hueman":"*",
+        "wpackagist-plugin/restaurant-menu-using-woocommerce": "^4.3"
+    },
+    "extra": {
+        "installer-paths": {
+            "your/custom/path/{$name}/": ["vendor:my_organization"]
+        }
+    }
+}

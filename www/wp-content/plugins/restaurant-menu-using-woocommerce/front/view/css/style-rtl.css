@@ -1,0 +1,19 @@
+div.quantity .qty {
+    margin-right:5px;
+}
+
+.dishes-group div label span:last-child{
+    text-align:left;
+}
+
+.pisol_child_cat_toggle{
+    text-align:right;
+}
+
+.sidedish-group:after{
+    float:left;
+}
+
+.sidedish-group{
+    text-align:right;
+}

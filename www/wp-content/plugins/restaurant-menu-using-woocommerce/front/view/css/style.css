@@ -1,0 +1,667 @@
+body,
+:root {
+    --pisol_color1: #FF9F1C;
+    --pisol_color2: #EB4511;
+    --pisol_color3: #cccccc;
+    --pisol_color4: #F2D1B3;
+    --pisol_color4l: #bdaa99;
+    --pisol_gray: #cccccc;
+}
+
+.pisol_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.pisol_cat {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 10px 0px;
+    justify-self: center;
+}
+
+.pisol_filter{
+    display:inline-block;
+}
+
+.pisol_cat .pisol_cat_button , .type_filter{
+    padding: 10px 15px;
+    color: #fff;
+    background: var(--pisol_color1);
+    margin: 5px;
+    border-radius: 3px;
+    font-size:16px;
+    text-decoration:none !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+}
+
+
+.pisol_cat .pisol_cat_button:hover{
+    text-decoration:none !important;
+}
+
+.type_filter{
+    padding: 4px 8px;
+    font-size:12px;
+    color:#fff !important;
+    cursor:pointer;
+}
+
+.pisol_cat .pisol_cat_button.active, .type_filter.active {
+    background: var(--pisol_color2);
+    color: #fff;
+}
+
+.pisol_cat .pisol_cat_button:hover,
+.pisol_cat .pisol_cat_button:focus, .type_filter {
+    color: #fff;
+    box-shadow: none;
+}
+
+.pisol_grid thead {
+    /*background: var(--pisol_color4);*/
+    text-align: center;
+}
+
+.pisol_grid th {
+    text-align: center;
+    font-size: 14px !important;
+    border:none;
+}
+
+#pisol_product_table th{
+    padding:9px 12px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+#pisol_product_table {
+    position: relative;
+    min-height: 140px;
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.pisol_parent_category{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#pisol_product_table .add_to_cart_inline {
+    display: inline;
+    border: 0 !important;
+}
+
+#pisol_product_table .add_to_cart_button {
+    font-size: 0;
+    display: inline-block;
+    box-shadow: none !important;
+}
+
+div.quantity {
+    display: inline-block;
+}
+
+
+div.quantity .qty {
+    width: 40px !important;
+    text-align: center;
+    margin-left: 5px;
+    padding: 2px 2px;
+    border-radius: 0px;
+}
+
+#pisol_product_table .add_to_cart_button{
+    padding:0 !important;
+    background:transparent !important;
+    width:40px !important;
+    height:40px !important;
+    text-decoration:none;
+    border:0px;
+}
+
+th.pisol_img{
+    min-width:60px;
+}
+
+#pisol_product_table .add_to_cart_button:before {
+    content: "+" !important;
+    width: 40px !important;
+    height: 40px !important;
+    display: block !important;
+    color: #fff !important;
+    font-size: 20px !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-style:normal !important;
+    background: var(--pisol_color2) !important;
+    font-weight: bold !important;
+    line-height: 40px !important;
+    border-radius: 50% !important;
+    margin: auto !important;
+    opacity:1  !important;
+    position:relative !important;
+    margin:0 !important;
+}
+
+#pisol_product_table .add_to_cart_button:after{
+    display:none;
+}
+
+#pisol_product_table .amount {
+    display: none;
+}
+
+.pisol_table {
+    width: 100%;
+    text-align: center;
+    border-collapse: inherit;
+    table-layout: auto;
+}
+
+.pisol_table th {
+    text-align: center;
+}
+
+.pisol_table td {
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size:16px;
+    border:none;
+}
+
+.extras h2 , .product_child_cat_row{
+    background: #ccc !important;
+}
+
+.pisol_sidedish_row td{
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+.pisol_table .add_to_cart_inline {
+    margin-bottom: 0px;
+}
+
+.pisol_img {
+    width: 100px;
+}
+
+.pisol_price {
+    /* width:40px;*/
+}
+
+.pisol_quantity {
+    width: 25px;
+}
+
+.dishes-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    align-items: center;
+    margin-top: -1px;
+    transition: all 0.22s;
+}
+
+.dishes-group div input[type="checkbox"] {
+    display: none;
+}
+
+.dishes-group div label {
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px 5px;
+    text-transform: capitalize;
+    background: #ccc;
+    color: #666;
+    border-radius: 2px;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.22s;
+}
+
+.dishes-group div label:hover {
+    background: var(--pisol_color1);
+    color: #FFF;
+}
+
+.dishes-group div label span:last-child {
+    text-align: right;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.dishes-group div label span:first-child {
+    text-align: left;
+    font-weight: bold;
+    font-size:14px;
+}
+
+input[type=checkbox]:checked+label {
+    background: var(--pisol_color1);
+    color: #fff;
+}
+
+input[type=checkbox]:disabled+label {
+    background: var(--pisol_gray);
+    opacity: 0.3;
+    cursor: initial !important;
+}
+
+.sidedish-group {
+    padding: 5px;
+    background-color: var(--pisol_color4);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    /* margin-top: 5px; */
+}
+
+.pisol-processing {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url(../img/loading.gif) no-repeat center center rgba(255, 255, 255, 0.5);
+    background-size: 150px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.product_name {
+    font-weight: bold;
+}
+
+.sidedish-group small {
+    font-size: 12px;
+    font-weight: normal !important;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.sidedish-group:hover {
+    color: #222;
+    background-color: var(--pisol_color4l);
+    transition: all 0.22s;
+}
+
+.sidedish-group:after {
+    content: "▾";
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: auto;
+    float: right;
+}
+
+.pisol_table tr {
+    border-top: 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.product_row:hover,
+.product_row:hover+tr.pisol_sidedish_row {
+    background: #eee
+}
+
+.product_row td {
+    padding: 10px 7px !important;
+}
+
+.product_child_cat_row .extras h2{
+    margin-top:0px;
+}
+.product_child_cat_row .extras h2:before{
+    content:none;
+}
+
+.pisol_no_product_msg td{
+    padding:2em 0px;
+    font-size:1.2em;
+}
+
+.product_child_cat_row h2 {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.pisol_table .product_child_cat_row {
+    background: var(--pisol_color1);
+    color: #fff;
+}
+
+.pisol_table .product_child_cat_row h2{
+    margin-bottom:0px;
+}
+
+td .product_name,
+.pisol_cart .product-name {
+    display: block;
+    text-align: left;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    font-size:16px;
+}
+
+.pisol_cart .product-name a {
+    text-decoration: none;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+.pisol_table .product_name a{
+    cursor:pointer;
+    font-size:16px;
+}
+
+th.pisol_name {
+    text-align: left !important;
+}
+
+.added_sidedishes {
+    margin-bottom: 0px;
+    padding-left:0px;
+    margin-left:0px;
+}
+
+.pisol_child_cat_toggle{
+    text-align:left;
+    color:#fff;
+    display: grid;
+    grid-template-columns: auto 50px;
+    padding: 5px 5px;
+    align-items: center;
+    text-decoration:none !important;
+    font-size:16px;
+}
+
+.pisol_child_cat_toggle span{
+    float:right;
+    font-size:20px;
+    font-style: italic;
+    justify-self: center;
+    color:#FFF;
+}
+
+.pisol_child_cat_toggle span .pisol_open{
+    display:none;
+}
+
+.pisol_child_cat_toggle.child_cap_closed span .pisol_open{
+    display:block;
+}
+
+.pisol_child_cat_toggle.child_cap_closed span .pisol_close{
+    display:none;
+}
+
+
+.added_sidedishes li {
+    list-style: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+    margin-left:5px;
+}
+
+.added_sidedishes li:before {
+    content: "✓";
+    display: inline-block;
+    margin-right: 5px;
+    color: var(--pisol_color1);
+}
+
+.added_sidedishes li {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.added_sidedishes li small {
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+.pisol_cart .variation {
+    font-weight: normal;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pisol_cart .variation dt:before {
+    content: "✓";
+    display: inline-block;
+    color: var(--pisol_color1);
+    margin-right: 2px;
+}
+
+.product_row .pisol-icon{
+    height:20px;
+    width:auto;
+    display:inline-block;
+    margin-right:5px;
+}
+
+.dish_type{
+    text-align:left;
+}
+
+.pisol_search{
+    border:1px solid #ccc;
+    margin-bottom:5px;
+    border-radius: 4px;
+    padding:5px;
+    display:flex;
+}
+
+.pisol_search input{
+    border:0px;
+    width:60%;
+    padding:0px 5px;
+}
+
+.pisol_search button{
+    border:0px;
+    width:40%;
+    background:var(--pisol_color1);
+    color:#FFF;
+    cursor:pointer;
+    font-size:14px;
+}
+
+.pisol-popup{
+    background:#FFF;
+    width:50%;
+    margin:20px auto;
+    position:relative;
+}
+
+.pisol-title{
+    background:var(--pisol_color1);
+    color:#fff;
+    padding:10px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.pisol-title h3{
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.pisol-title h3 small{
+    font-size:16px;
+}
+
+.mfp-close{
+    color:#fff !important;
+    justify-content: space-around;
+    position:absolute;
+    top:5px;
+    right:5px;
+}
+
+.pisol-flex{
+    display:flex;
+    align-items:center;
+    padding:10px;
+}
+
+.pisol-image{
+    flex:1;
+    margin-right:10px;
+    text-align: center;
+}
+
+.pisol-fluid{
+    max-width: 100%;
+}
+
+.pisol-content{
+    flex:3;
+}
+
+.pisol-popup-price{
+    text-align:center;
+    font-size:14px;
+    background-color:var(--pisol_color1);
+    margin-top:5px;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.pisol-short-desc{
+    text-align:left;
+    line-height: normal;
+    display:block;
+}
+
+.pi-food-type{
+    min-width:50px;
+}
+
+@media (max-width:980px) {
+    .pisol_grid {
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 10px;
+    }
+    .pisol_cat {
+        grid-column: 1/3;
+    }
+    .pisol_products {
+        grid-column: 1/3 !important;
+    }
+    .pisol_cart {
+        grid-column: 1/3 !important;
+    }
+
+    .pisol-flex{
+        display:block;
+    }
+}
+
+@media (max-width:768px){
+    .pisol_prod_image, .pisol_img{
+        display:none;
+    }
+}
+
+@media (max-width:500px){
+    .pisol_filter{
+        display: flex;
+    }
+}
+
+.woocommerce table.shop_table {
+    border: 1px solid rgba(0,0,0,.1);
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+    border-radius: 5px;
+}
+
+.woocommerce table.shop_table td, .woocommerce table.shop_table th{
+    border:none;
+}
+
+.woocommerce table.shop_table td{
+    border-top:1px solid rgba(0,0,0,.1);
+    line-height: normal;
+}
+
+.woocommerce table.shop_table tr, .woocommerce table.shop_table th{
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+
+
+#pisol_product_search, #pisol_search_all_product{
+    font-size:16px;
+    padding:0px 10px !important;
+}
+
+#pisol_product_search{
+    padding:10px 10px !important;
+}
+
+#pisol_search_all_product{
+    border-radius:0 5px 5px 0;
+}
+
+.pisol_cart button, .pisol_cart input[type="text"]{
+    padding:5px 10px;
+    font-size:16px;
+    line-height: normal;
+}
+
+.pisol_cart .amount{
+font-size:16px;
+}
+
+.pisol_cart input[type="number"]{
+    font-size:16px;
+}
+
+#pisol_product_table .add_to_cart_button.pi-disable:before{
+    background:#ccc !important;
+    cursor:default;
+}
+
+.pi-restricted{
+    background-color:rgba(255,0,0,0.6) !important;
+    color:#fff !important;
+}
+
+#mini-cart-count{
+    background-color:#ffffff;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    color:#000;
+    text-align: center;
+}

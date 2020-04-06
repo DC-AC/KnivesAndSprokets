@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pro Restaurant Menu using Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-06 06:56+0000\n"
+"PO-Revision-Date: 2018-08-06 06:59+0000\n"
+"Last-Translator: rajesh <rajeshsingh520@gmail.com>\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: pisol_restaurant_menu.php:27
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+"Установите и активируйте плагин WooCommerce, без использования этой плагины\n"
+"Ustanovite i aktiviruyte plagin WooCommerce, bez ispol'zovaniya etoy "
+"plaginy\n"
+
+#: admin/pisol_admin.php:29
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/pisol_admin.php:30
+msgid "Buy Pro"
+msgstr ""
+"Купить Pro\n"
+
+#: admin/pisol_admin.php:41
+msgid "Restaurant Menu Setting"
+msgstr ""
+"Настройка меню ресторана\n"
+
+#: admin/pisol_admin.php:41
+msgid "Restaurant Menu"
+msgstr ""
+"Меню ресторана\n"
+
+#: admin/pisol_admin.php:76
+msgid "Overwrite Plugin Cart template in your theme"
+msgstr ""
+"Заменить шаблон плагиновой корзины в своем списке\n"
+
+#: admin/pisol_admin.php:76 admin/pisol_admin.php:78 admin/pisol_admin.php:82
+#: admin/pisol_admin.php:84 admin/pisol_admin.php:86 admin/pisol_admin.php:88
+#: admin/pisol_admin.php:89
+msgid "No"
+msgstr ""
+"нет\n"
+
+#: admin/pisol_admin.php:76 admin/pisol_admin.php:78 admin/pisol_admin.php:82
+#: admin/pisol_admin.php:84 admin/pisol_admin.php:86 admin/pisol_admin.php:88
+#: admin/pisol_admin.php:89
+msgid "Yes"
+msgstr ""
+"да\n"
+
+#: admin/pisol_admin.php:78
+msgid "Hide Empty Categories"
+msgstr ""
+"Скрыть пустые категории\n"
+
+#: admin/pisol_admin.php:80
+msgid "Default Category"
+msgstr ""
+"Категория по умолчанию\n"
+
+#: admin/pisol_admin.php:82
+msgid "Redirect Simple product to menu page"
+msgstr ""
+"Перенаправление Простой продукт на страницу меню\n"
+
+#: admin/pisol_admin.php:84
+msgid "Redirect Category page to menu page"
+msgstr "Перенаправить страницу категории на страницу меню"
+
+#: admin/pisol_admin.php:86
+msgid "Redirect Shop page to menu page"
+msgstr "Перенаправить страницу магазина на страницу меню"
+
+#: admin/pisol_admin.php:88
+msgid "Show Image"
+msgstr "Показать изображение"
+
+#: admin/pisol_admin.php:89
+msgid "Show Image from parent category, if product dont have image"
+msgstr ""
+"Показать изображение из родительской категории, если у продукта нет "
+"изображения"
+
+#: front/pisol_front.php:96
+msgid "There are no product of this type"
+msgstr "Нет товаров этого типа"
+
+#: front/pisol_front.php:120
+msgid "Product name to search"
+msgstr "Название продукта для поиска"
+
+#: front/pisol_front.php:120
+msgid "Search Product"
+msgstr "Поиск продукта"
+
+#: admin/meta/pisol_admin_meta.php:22
+msgid "Side Dishes"
+msgstr "Гарнир"
+
+#: admin/meta/pisol_admin_meta.php:220
+msgid "Dish Type"
+msgstr ""
+"Тип тарелки\n"
+
+#: admin/meta/pisol_admin_meta.php:235
+msgid "Dish Type (Veg/Non Veg)"
+msgstr ""
+"Тип тарелки (Veg / Non Veg)\n"
+
+#: admin/meta/pisol_admin_meta.php:237
+msgid "Select Type"
+msgstr "Выберите тип"
+
+#: admin/meta/pisol_admin_meta.php:238
+msgid "Vegetarian"
+msgstr "вегетарианец"
+
+#: admin/meta/pisol_admin_meta.php:239
+msgid "Non-Vegetarian"
+msgstr "Не вегетарианский"
+
+#: admin/view/restaurant_menu_option_page.php:9
+msgid "Display Setting"
+msgstr ""
+"Настройка экрана\n"
+
+#: front/view/product-loop.php:10
+msgid "Price/Unit"
+msgstr "Цена / Unit"
+
+#: front/view/product-sidedish-group.php:5
+msgid "You can select upto: "
+msgstr "Вы можете выбрать upto:"
+
+#: front/view/woocommerce/cart/cart-empty.php:63
+msgid "Remove this item"
+msgstr "Удалить этот элемент"
+
+#. Name of the plugin
+msgid "Pro Restaurant Menu using Woocommerce"
+msgstr "Меню ресторана Pro с использованием Woocommerce"
+
+#. Description of the plugin
+msgid ""
+"Online Food ordering made easy, just install and your online food business "
+"is ready"
+msgstr ""
+"Онлайн-заказ еды упростился, просто установите, и ваш онлайн-бизнес по "
+"пищевым продуктам готов"
+
+#. URI of the plugin
+msgid "https://woo-restaurant.com/"
+msgstr "https://woo-restaurant.com/"
+
+#. Author of the plugin
+msgid "Rajesh Singh"
+msgstr "Rajesh Singh"
+
+#. Author URI of the plugin
+msgid "piwebsolution.com"
+msgstr "piwebsolution.com"

@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pro Restaurant Menu using Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-06 06:56+0000\n"
+"PO-Revision-Date: 2018-08-06 06:58+0000\n"
+"Last-Translator: rajesh <rajeshsingh520@gmail.com>\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: pisol_restaurant_menu.php:27
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+"בבקשה להתקין ולהפעיל תוסף WooCommerce, ללא תוסף זה תוסף זה\n"
+
+#: admin/pisol_admin.php:29
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: admin/pisol_admin.php:30
+msgid "Buy Pro"
+msgstr "קנה Pro"
+
+#: admin/pisol_admin.php:41
+msgid "Restaurant Menu Setting"
+msgstr ""
+"תפריט תפריט הגדרה\n"
+
+#: admin/pisol_admin.php:41
+msgid "Restaurant Menu"
+msgstr ""
+"תפריט המסעדה\n"
+
+#: admin/pisol_admin.php:76
+msgid "Overwrite Plugin Cart template in your theme"
+msgstr ""
+"החלף תבנית עגלת תוסף בערכת הנושא\n"
+
+#: admin/pisol_admin.php:76 admin/pisol_admin.php:78 admin/pisol_admin.php:82
+#: admin/pisol_admin.php:84 admin/pisol_admin.php:86 admin/pisol_admin.php:88
+#: admin/pisol_admin.php:89
+msgid "No"
+msgstr "לא"
+
+#: admin/pisol_admin.php:76 admin/pisol_admin.php:78 admin/pisol_admin.php:82
+#: admin/pisol_admin.php:84 admin/pisol_admin.php:86 admin/pisol_admin.php:88
+#: admin/pisol_admin.php:89
+msgid "Yes"
+msgstr "כן"
+
+#: admin/pisol_admin.php:78
+msgid "Hide Empty Categories"
+msgstr ""
+"הסתר קטגוריות ריקות\n"
+
+#: admin/pisol_admin.php:80
+msgid "Default Category"
+msgstr ""
+"ברירת מחדל קטגוריה\n"
+
+#: admin/pisol_admin.php:82
+msgid "Redirect Simple product to menu page"
+msgstr ""
+"הפניה מחדש של מוצר פשוט לדף התפריט\n"
+
+#: admin/pisol_admin.php:84
+msgid "Redirect Category page to menu page"
+msgstr ""
+"הפנה מחדש את דף הקטגוריה לדף התפריט\n"
+
+#: admin/pisol_admin.php:86
+msgid "Redirect Shop page to menu page"
+msgstr ""
+"הפנה מחדש את דף החנות לדף התפריט\n"
+
+#: admin/pisol_admin.php:88
+msgid "Show Image"
+msgstr ""
+"הצג תמונה\n"
+
+#: admin/pisol_admin.php:89
+msgid "Show Image from parent category, if product dont have image"
+msgstr ""
+"הצג תמונה מתוך הקטגוריה האם, אם המוצר dont יש תמונה\n"
+
+#: front/pisol_front.php:96
+msgid "There are no product of this type"
+msgstr ""
+"אין מוצר מסוג זה\n"
+
+#: front/pisol_front.php:120
+msgid "Product name to search"
+msgstr "שם המוצר לחיפוש"
+
+#: front/pisol_front.php:120
+msgid "Search Product"
+msgstr "חפש מוצר"
+
+#: admin/meta/pisol_admin_meta.php:22
+msgid "Side Dishes"
+msgstr ""
+"תוספות\n"
+
+#: admin/meta/pisol_admin_meta.php:220
+msgid "Dish Type"
+msgstr ""
+"סוג דיש\n"
+
+#: admin/meta/pisol_admin_meta.php:235
+msgid "Dish Type (Veg/Non Veg)"
+msgstr ""
+"סוג דיש (צמח / לא צמח)\n"
+
+#: admin/meta/pisol_admin_meta.php:237
+msgid "Select Type"
+msgstr ""
+"בחר סוג\n"
+
+#: admin/meta/pisol_admin_meta.php:238
+msgid "Vegetarian"
+msgstr "צִמחוֹנִי"
+
+#: admin/meta/pisol_admin_meta.php:239
+msgid "Non-Vegetarian"
+msgstr ""
+"לא צמחוני\n"
+
+#: admin/view/restaurant_menu_option_page.php:9
+msgid "Display Setting"
+msgstr ""
+"הגדרות תצוגה\n"
+
+#: front/view/product-loop.php:10
+msgid "Price/Unit"
+msgstr ""
+"מחיר / יחידה:\n"
+
+#: front/view/product-sidedish-group.php:5
+msgid "You can select upto: "
+msgstr ""
+"תוכל לבחור upto:\n"
+
+#: front/view/woocommerce/cart/cart-empty.php:63
+msgid "Remove this item"
+msgstr ""
+"הסר פריט זה\n"
+
+#. Name of the plugin
+msgid "Pro Restaurant Menu using Woocommerce"
+msgstr ""
+"תפריט תפריט Pro באמצעות Woocommerce\n"
+
+#. Description of the plugin
+msgid ""
+"Online Food ordering made easy, just install and your online food business "
+"is ready"
+msgstr ""
+"Online הזמנת מזון קל, פשוט להתקין את העסק מזון מקוון מוכן\n"
+
+#. URI of the plugin
+msgid "https://woo-restaurant.com/"
+msgstr "https://woo-restaurant.com"
+
+#. Author of the plugin
+msgid "Rajesh Singh"
+msgstr "Rajesh Singh"
+
+#. Author URI of the plugin
+msgid "piwebsolution.com"
+msgstr "piwebsolution.com"

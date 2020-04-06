@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pro Restaurant Menu using Woocommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-15 06:13+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: pisol_restaurant_menu.php:30
+msgid ""
+"Please Install and Activate WooCommerce plugin, without that this plugin "
+"cant work"
+msgstr ""
+
+#: admin/pisol_admin.php:32
+msgid "Documentation"
+msgstr ""
+
+#: admin/pisol_admin.php:33
+msgid "Buy Pro"
+msgstr ""
+
+#: admin/pisol_admin.php:46
+msgid "Restaurant Menu Setting"
+msgstr ""
+
+#: admin/pisol_admin.php:46
+msgid "Restaurant Menu"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:59
+msgid "Layout of menu page"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:61
+msgid "Overwrite Plugin Cart template in your theme"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:61
+#: admin/pisol_restaurant_menu_option.php:63
+#: admin/pisol_restaurant_menu_option.php:69
+#: admin/pisol_restaurant_menu_option.php:71
+#: admin/pisol_restaurant_menu_option.php:73
+#: admin/pisol_restaurant_menu_option.php:75
+#: admin/pisol_restaurant_menu_option.php:77
+#: admin/pisol_restaurant_menu_option.php:79
+#: admin/pisol_restaurant_menu_option.php:81
+msgid "No"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:61
+#: admin/pisol_restaurant_menu_option.php:63
+#: admin/pisol_restaurant_menu_option.php:69
+#: admin/pisol_restaurant_menu_option.php:71
+#: admin/pisol_restaurant_menu_option.php:73
+#: admin/pisol_restaurant_menu_option.php:75
+#: admin/pisol_restaurant_menu_option.php:77
+#: admin/pisol_restaurant_menu_option.php:79
+#: admin/pisol_restaurant_menu_option.php:81
+msgid "Yes"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:63
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:65
+msgid ""
+"Press CTR and click on category to select multiple category, Select the "
+"categoris that you will like to hide on front end, Not to select the "
+"category that you have selected above as default category"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:65
+msgid "Hide this Categories"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:67
+msgid "Default Category"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:69
+msgid "Redirect Simple product to menu page"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:71
+msgid "Redirect Category page to menu page"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:73
+msgid "Redirect Shop page to menu page"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:75
+msgid "Show Image"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:77
+msgid "Show Image from parent category, if product dont have image"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:79
+msgid "Show short descripton below product"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:79
+msgid ""
+"You can show short description below the product name, try to keep this short"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:81
+msgid "Show product description in popup"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:83
+msgid "Message opening animation"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:83
+msgid "This animation is used when sales notification message opens"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:85
+msgid "Hide out of stock item"
+msgstr ""
+
+#: admin/pisol_restaurant_menu_option.php:85
+msgid "Once this is enabled it will hide the product that are out of stock"
+msgstr ""
+
+#: front/pisol_front.php:129
+msgid "There are no product of this type"
+msgstr ""
+
+#: front/pisol_front.php:154
+msgid "Product name to search"
+msgstr ""
+
+#: front/pisol_front.php:154
+msgid "Search Product"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:22
+msgid "Side Dishes"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:241
+msgid "Dish Type"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:256
+msgid "Dish Type (Veg/Non Veg)"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:258
+msgid "Select Type"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:259
+msgid "Vegetarian"
+msgstr ""
+
+#: admin/meta/pisol_admin_meta.php:260
+msgid "Non-Vegetarian"
+msgstr ""
+
+#: front/view/product-loop.php:18
+msgid "Price/Unit"
+msgstr ""
+
+#: front/view/product-sidedish-group.php:5
+msgid "You can select upto: "
+msgstr ""
+
+#: front/view/product-sidedish-group.php:6
+msgid "You must select at least: "
+msgstr ""
+
+#: front/view/woocommerce/cart/cart-empty.php:63
+msgid "Remove this item"
+msgstr ""
+
+#. Name of the plugin
+msgid "Restaurant Menu using WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Online Food ordering made easy, just install and your online food business "
+"is ready"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://woo-restaurant.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "PI Websolution"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "piwebsolution.com"
+msgstr ""
